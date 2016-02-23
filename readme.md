@@ -1,6 +1,6 @@
 Right numbers
 ==============
-The simple numeric generator with math analysis which helps you to join lottery (6/49, 7/35 and so on).
+The simple numeric generator with math analysis which helps you to join a lottery (6/49, 7/35 and so on).
 Just go to www.rignum.com , read disclaimer and use it.  
 
 
