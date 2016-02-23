@@ -1,0 +1,84 @@
+<!-- code describe conditon and display list of the choices which made by random function -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Rignum - Right numbers! Your lotto helper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.7.0/math.min.js" type="text/javascript"></script>
+      <script  type="text/javascript"  src="app.js" ></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+    <body>
+
+ <h2 class='div_text_shadow' align="center";> Your right numbers here!!!</h2><br/><br/><br/>
+ <table class="tg" width="100%" align="left";>
+   <tr>
+     <th class="tg-031e" width="25%">
+       <ul id="place1"></ul>
+
+     </th>
+     <th class="tg-yw4l" width="38%">
+       <p class="text_title2">We are glad to see you dear guest on this website. Look the news about your local lottery.
+       What is the jackpot today? <br/>Maybe a couple of hundreds millions, maybe not, we just offer you to
+       try our  generator of numbers, but read our <a class="font-text" id="disclaimer">Disclaimer</a>
+       <span id="discmes"  hidden><br/><br/><a id="discmesh"></a><br/><br></span> before, and then: </p><br/>
+
+       <p class="command_text">1. Fill the quantity of  numbers which you should guess.<br/><br/>
+
+       2. Fill the quantity of numbers of the row, which the lottery has.<br/><br/>
+       3. Fill the number of combinations which you are going to get, then push <em class="font-text">"Get your combinations"</em>, to see it.<br/><br/>
+
+       4. Push <em class="font-text">"Create file"</em> and<em class="font-text"> "Download"</em> to get your combinations in "txt" file. <br/><br/>
+
+       5. Join your lottery with the<em class="font-text"> Right Numbers</em> and get the Prize! </p><br/>
+
+       <p align="center" class="text_title2">Well, maybe not right now,</br> we just multiply your luck!!!</p><br/><br/><br/><br/>
+
+       <h6 align="center">
+       <a class="font-text1" href="https://github.com/TJQKAs">created by "TJQKAs"  </a>
+       2016
+       </h6>
+
+     </th>
+     <th class="tg-yw4l" width="2%">
+     </th>
+     <th class="tg-yw4l" width="30%">
+
+       <form required> Number of elements (for example 6,  max - 7):<br/>
+         <span id="error1" hidden></span>
+         <input class='css-input' type="number" name="quantity" class="enter" value="" placeholder="Type numb of elem..."  id="lolz"/></br>
+          from the row of the lottery (for example 49, max - 49):<br/>
+          <span id="error2" hidden></span>
+         <input class='css-input' type="number" name="quantity" class="enter" value="" placeholder="Type size of numb row..."   id="dolz"/></br>
+          Amount of combinations (for example 20, max - 100):<br/>
+          <span id="error3" hidden></span>
+         <input class='css-input' type="number" name="quantity" class="enter" value="" placeholder="Type numb of comb..."  id="molz"/><br/><br/>
+         <input type="button" class="btn" value="Get your combinations" onclick="getourData()"/>
+   </form><br/>
+
+   <table class="tg" width="100%" align="center";>
+     <tr>
+       <th>
+         <button class="btn" id="create">Create file</button><br/><br/>
+         <a class="btn" download="info.txt" id="downloadlink" style="display: none; width:120px;">Download</a>
+
+       </th>
+     </tr>
+     <tr>
+       <td></td>
+     </tr>
+     <tr>
+       <td></td>
+     </tr>
+   </table>
+
+     </th>
+   </tr>
+
+ </table>
+
+</body>
+
+
+</html>
