@@ -10,7 +10,7 @@ Just go to www.rignum.com , read disclaimer and use it.
 #### Technologies Used
 `Javascipt`
 `JQuery`
-`mathjs`
+`Mathjs`
 
 
 ##### Running locally in command line
