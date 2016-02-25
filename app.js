@@ -24,6 +24,7 @@ document.getElementById('discmes').className="hidden";
 
 
         // assign to variables data which was gotten by input form
+        // also we check conditions
         if (lol.value < 8 && lol.value > 0){
           var elems = lol.value;
           console.log(elems);
@@ -73,7 +74,7 @@ document.getElementById('discmes').className="hidden";
        inputElements[i].value = "";
      }
    }
-
+// if elems is more than row of lottery (because it's main issue - bug ) to avoid this we make if-statement 
    if(elems > sizeNum){
     elems = 6;
     sizeNum = 49;
